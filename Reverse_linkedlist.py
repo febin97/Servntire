@@ -1,4 +1,4 @@
-#Reverse a Linked List
+#Reverse a Linked List recursively
 
 class Node :
     def __init__(self, data) :
