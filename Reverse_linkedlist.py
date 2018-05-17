@@ -21,6 +21,7 @@ ls = Node(arr[0])
 head  = ls
 ls = Node(arr[1])
 head.next = ls
+print("The original linked list")
 for i in range(2,len(arr)):
     ls.next = Node(arr[i])
     ls = ls.next
@@ -32,7 +33,7 @@ print()
 
 
 ls = reverseLL(head)
-
+print("After reversing..")
 while ls:
     print(ls.data,end="->")
     ls = ls.next
